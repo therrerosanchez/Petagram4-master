@@ -56,7 +56,7 @@ public class BaseDatos extends SQLiteOpenHelper {
             Mascota mascotaActual = new Mascota();
             mascotaActual.setId(registros.getInt(0));
             mascotaActual.setNombre(registros.getString(1));
-            mascotaActual.setFoto(registros.getInt(4));
+            mascotaActual.setFoto(registros.getInt(2));
 
             String queryLikes = "SELECT COUNT ( " + ConstantesBaseDatos.TABLE_LIKES_MASCOTA_ID_NUMERO_LIKES + " ) as likes " +
                     " FROM " + ConstantesBaseDatos.TABLE_LIKES_MASCOTA +
@@ -70,9 +70,6 @@ public class BaseDatos extends SQLiteOpenHelper {
             }
 
             mascotas.add(mascotaActual);
-
-            //  mascotaActual.setLikes();
-
         }
 
         db.close();

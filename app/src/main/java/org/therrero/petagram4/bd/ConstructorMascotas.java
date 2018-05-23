@@ -29,12 +29,12 @@ public class ConstructorMascotas {
 
         db.insertarMascota(contentValues);
 
-        contentValues.put(  ConstantesBaseDatos.TABLE_MASCOTAS_NOMBRE, "Hulk");
+        contentValues.put(  ConstantesBaseDatos.TABLE_MASCOTAS_NOMBRE, "Churri");
         contentValues.put(  ConstantesBaseDatos.TABLE_MASCOTAS_FOTO, R.drawable.mascota2);
 
         db.insertarMascota(contentValues);
 
-        contentValues.put(  ConstantesBaseDatos.TABLE_MASCOTAS_NOMBRE, "Black Widow");
+        contentValues.put(  ConstantesBaseDatos.TABLE_MASCOTAS_NOMBRE, "Arial");
         contentValues.put(  ConstantesBaseDatos.TABLE_MASCOTAS_FOTO, R.drawable.mascota3);
 
         db.insertarMascota(contentValues);
