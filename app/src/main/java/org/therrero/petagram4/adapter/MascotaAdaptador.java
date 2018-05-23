@@ -48,7 +48,7 @@ public class MascotaAdaptador extends RecyclerView.Adapter<MascotaAdaptador.Masc
                 Toast.makeText(activity, "Diste LIKE a " + mascota.getNombre() + ". Lleva " + mascota.getLikes() + " likes.", Toast.LENGTH_SHORT).show();
                 ConstructorMascotas constructorMascotas = new ConstructorMascotas(activity);
                 constructorMascotas.darLikeMascota(mascota);
-                mascotaViewHolder.tvLikesCV.setText((String.valueOf(constructorMascotas.obtenerLikesMascota(mascota)    )) + " Likes");
+                mascotaViewHolder.tvLikesCV.setText((String.valueOf(constructorMascotas.obtenerLikesMascota(mascota))));
             }
         });
 

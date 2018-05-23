@@ -38,6 +38,16 @@ public class ConstructorMascotas {
         contentValues.put(  ConstantesBaseDatos.TABLE_MASCOTAS_FOTO, R.drawable.mascota3);
 
         db.insertarMascota(contentValues);
+
+        contentValues.put(  ConstantesBaseDatos.TABLE_MASCOTAS_NOMBRE, "Chori");
+        contentValues.put(  ConstantesBaseDatos.TABLE_MASCOTAS_FOTO, R.drawable.mascota4);
+
+        db.insertarMascota(contentValues);
+
+        contentValues.put(  ConstantesBaseDatos.TABLE_MASCOTAS_NOMBRE, "Quince");
+        contentValues.put(  ConstantesBaseDatos.TABLE_MASCOTAS_FOTO, R.drawable.mascota5);
+
+        db.insertarMascota(contentValues);
     }
 
     public void darLikeMascota(Mascota mascota){
