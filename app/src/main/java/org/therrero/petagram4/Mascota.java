@@ -3,6 +3,8 @@ package org.therrero.petagram4;
 import java.util.ArrayList;
 
 public class Mascota {
+
+    private int idMascota;
     private String nombre;
     private int foto;
     private int likes;
@@ -11,6 +13,14 @@ public class Mascota {
         this.nombre = nombre;
         this.foto = foto;
         this.likes = likes;
+    }
+
+    public int getIdMascota() {
+        return idMascota;
+    }
+
+    public void setIdMascota(int idMascota) {
+        this.idMascota = idMascota;
     }
 
     public String getNombre() {
