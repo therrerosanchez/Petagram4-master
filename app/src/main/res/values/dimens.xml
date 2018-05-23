@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cornerRadiusCardview">4dp</dimen>
+    <dimen name="ladoFoto">225dp</dimen>
+    <dimen name="elevacionActionBar">4dp</dimen>
+    <dimen name="huellaAncho">46dp</dimen>
+    <dimen name="huellaAlto">24dp</dimen>
+    <dimen name="margen">10dp</dimen>
+</resources>

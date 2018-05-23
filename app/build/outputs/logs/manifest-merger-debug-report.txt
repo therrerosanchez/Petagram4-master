@@ -1,0 +1,142 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml:2:1-24:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\42c6874ec8476ab20b915c51bb0aaad4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\e8d77e4d4f8421841c32e83cc5dde8c6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\21647bcc85382f924d6849d0da33bcb5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\45197c1b57bec4651191f26620a06c21\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\aa923bdc644e8adaf770e7e7e8c2b9de\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\5f0deb751b4c02f02cf52a872f8d748a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.mikhaellopez:circularimageview:3.0.2] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\circularimageview-3.0.2.aar\9f09a35b286848cb291fa46eb0607ad7\AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\40fea17540bdeb5c283dc288a8c79139\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\56f9c9863bdcd8ff06a58d7277d0cf19\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\2d97b411b1433f3643f841d06ada998b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\8a51674fe304a0a771ca4c9e228ade04\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\ce3037bfaa358fa2f58cb90a109a57fb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\cf46ed99ad664dca95d9b44e56f8db36\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\878913ce3ffecd586e4aa531e6e2c793\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\367e6e9af6da08435ed84e6dd63a5e16\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\55cb74929c2ad00514286c4272e0e7f1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\c9e4f9dd082109bc096a68029f5dc6b7\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\c29a513bb748f8d2d651b8cf22bda278\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\38d609faf14f40320133e9af32787748\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml:2:1-24:12
+		INJECTED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml:2:1-24:12
+		INJECTED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml:4:5-66
+	android:name
+		ADDED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml:4:22-64
+application
+ADDED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml:5:5-22:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\aa923bdc644e8adaf770e7e7e8c2b9de\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\aa923bdc644e8adaf770e7e7e8c2b9de\AndroidManifest.xml:9:5-20
+MERGED from [com.mikhaellopez:circularimageview:3.0.2] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\circularimageview-3.0.2.aar\9f09a35b286848cb291fa46eb0607ad7\AndroidManifest.xml:11:5-13:38
+MERGED from [com.mikhaellopez:circularimageview:3.0.2] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\circularimageview-3.0.2.aar\9f09a35b286848cb291fa46eb0607ad7\AndroidManifest.xml:11:5-13:38
+	android:supportsRtl
+		ADDED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml:11:9-40
+activity#org.therrero.petagram4.MainActivity
+ADDED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml:16:27-74
+activity#org.therrero.petagram4.RatedActivity
+ADDED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml:19:9-51
+	android:name
+		ADDED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml:19:19-48
+activity#org.therrero.petagram4.ActivityContacto
+ADDED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml:20:9-54
+	android:name
+		ADDED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml:20:19-51
+activity#org.therrero.petagram4.BioActivity
+ADDED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml:21:9-58
+	android:name
+		ADDED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml:21:19-46
+uses-sdk
+INJECTED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.1] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\42c6874ec8476ab20b915c51bb0aaad4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\42c6874ec8476ab20b915c51bb0aaad4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\e8d77e4d4f8421841c32e83cc5dde8c6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\e8d77e4d4f8421841c32e83cc5dde8c6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\21647bcc85382f924d6849d0da33bcb5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\21647bcc85382f924d6849d0da33bcb5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\45197c1b57bec4651191f26620a06c21\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\45197c1b57bec4651191f26620a06c21\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\aa923bdc644e8adaf770e7e7e8c2b9de\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\aa923bdc644e8adaf770e7e7e8c2b9de\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\5f0deb751b4c02f02cf52a872f8d748a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\5f0deb751b4c02f02cf52a872f8d748a\AndroidManifest.xml:20:5-44
+MERGED from [com.mikhaellopez:circularimageview:3.0.2] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\circularimageview-3.0.2.aar\9f09a35b286848cb291fa46eb0607ad7\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mikhaellopez:circularimageview:3.0.2] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\circularimageview-3.0.2.aar\9f09a35b286848cb291fa46eb0607ad7\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\40fea17540bdeb5c283dc288a8c79139\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\40fea17540bdeb5c283dc288a8c79139\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\56f9c9863bdcd8ff06a58d7277d0cf19\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\56f9c9863bdcd8ff06a58d7277d0cf19\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\2d97b411b1433f3643f841d06ada998b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\2d97b411b1433f3643f841d06ada998b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\8a51674fe304a0a771ca4c9e228ade04\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\8a51674fe304a0a771ca4c9e228ade04\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\ce3037bfaa358fa2f58cb90a109a57fb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\ce3037bfaa358fa2f58cb90a109a57fb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\cf46ed99ad664dca95d9b44e56f8db36\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\cf46ed99ad664dca95d9b44e56f8db36\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\878913ce3ffecd586e4aa531e6e2c793\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\878913ce3ffecd586e4aa531e6e2c793\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\367e6e9af6da08435ed84e6dd63a5e16\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\367e6e9af6da08435ed84e6dd63a5e16\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\55cb74929c2ad00514286c4272e0e7f1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\55cb74929c2ad00514286c4272e0e7f1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\c9e4f9dd082109bc096a68029f5dc6b7\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\c9e4f9dd082109bc096a68029f5dc6b7\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\c29a513bb748f8d2d651b8cf22bda278\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\c29a513bb748f8d2d651b8cf22bda278\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\38d609faf14f40320133e9af32787748\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\tomas\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\38d609faf14f40320133e9af32787748\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\tomas\AndroidStudioProjects\Petagram4-master\app\src\main\AndroidManifest.xml

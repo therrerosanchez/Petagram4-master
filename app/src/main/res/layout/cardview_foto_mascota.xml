@@ -1,0 +1,47 @@
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/CardViewFotoMascota"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/margen"
+    card_view:cardCornerRadius="@dimen/cornerRadiusCardview">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/fotoMascota"
+            android:layout_width="@dimen/ladoFoto"
+            android:layout_height="@dimen/ladoFoto"
+            android:contentDescription="@string/foto_generico"
+            android:scaleType="fitXY"
+            android:src="@drawable/mascota1" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/Fotolikes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:contentDescription="@string/huella"
+                android:text="@string/likes"
+                android:textAlignment="textEnd" />
+
+            <ImageView
+                android:id="@+id/huesoAmarillo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/huella"
+                android:src="@drawable/hueso_amarillo" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
