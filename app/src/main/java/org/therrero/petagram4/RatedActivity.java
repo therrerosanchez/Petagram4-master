@@ -6,6 +6,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
+import org.therrero.petagram4.adapter.MascotaAdaptador;
 import org.therrero.petagram4.pojo.Mascota;
 
 import java.util.ArrayList;

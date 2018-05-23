@@ -1,4 +1,4 @@
-package org.therrero.petagram4;
+package org.therrero.petagram4.adapter;
 
 import android.app.Activity;
 import android.support.annotation.NonNull;
@@ -10,6 +10,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import org.therrero.petagram4.R;
 import org.therrero.petagram4.pojo.Mascota;
 
 import java.util.ArrayList;

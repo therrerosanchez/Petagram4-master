@@ -1,4 +1,4 @@
-package org.therrero.petagram4;
+package org.therrero.petagram4.adapter;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;

@@ -1,4 +1,4 @@
-package org.therrero.petagram4;
+package org.therrero.petagram4.adapter;
 
 import android.app.Activity;
 import android.support.annotation.NonNull;
@@ -8,6 +8,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import org.therrero.petagram4.FotoMascota;
+import org.therrero.petagram4.R;
 
 import java.util.ArrayList;
 
