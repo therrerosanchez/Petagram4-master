@@ -10,6 +10,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import org.therrero.petagram4.pojo.Mascota;
+
 import java.util.ArrayList;
 
 public class RecyclerViewFragment extends Fragment {
