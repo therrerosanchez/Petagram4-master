@@ -1,7 +1,11 @@
 #Internal package file, do not edit.
-#Wed May 23 16:41:18 CEST 2018
+#Wed May 23 17:22:49 CEST 2018
+1.base=C\:\\Users\\tomas\\AndroidStudioProjects\\Petagram4-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\27
 0.baseType=DIRECTORY
-0.base=C\:\\Users\\tomas\\AndroidStudioProjects\\Petagram4-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\15
+1.baseType=DIRECTORY
+count=2
+1.set=DEX
 0.path=classes.dex
 0.set=DEX
-count=1
+0.base=C\:\\Users\\tomas\\AndroidStudioProjects\\Petagram4-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\28
+1.path=classes.dex

@@ -12,6 +12,8 @@ import android.view.MenuItem;
 import android.view.View;
 
 import org.therrero.petagram4.adapter.PageAdapter;
+import org.therrero.petagram4.fragment.PerfilFragment;
+import org.therrero.petagram4.fragment.RecyclerViewFragment;
 
 import java.util.ArrayList;
 
@@ -54,13 +56,6 @@ public class MainActivity extends AppCompatActivity {
         tabLayout = (TabLayout) findViewById(R.id.TabLayout);
         viewPager = (ViewPager) findViewById(R.id.ViewPager);
         setUpViewPager();
-
-
-
-/*        android.support.v7.widget.Toolbar miActionBar = (android.support.v7.widget.Toolbar) findViewById(R.id.miActionBar);
-        setSupportActionBar(miActionBar);
-
-*/
 
         if (toolbar != null){
             setSupportActionBar(toolbar);

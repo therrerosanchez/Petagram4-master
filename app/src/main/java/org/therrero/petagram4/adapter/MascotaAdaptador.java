@@ -11,6 +11,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import org.therrero.petagram4.R;
+import org.therrero.petagram4.bd.ConstructorMascotas;
 import org.therrero.petagram4.pojo.Mascota;
 
 import java.util.ArrayList;
@@ -34,7 +35,7 @@ public class MascotaAdaptador extends RecyclerView.Adapter<MascotaAdaptador.Masc
 
     //Asocia cada elemento de nuestra vista con cada view
     @Override
-    public void onBindViewHolder(@NonNull MascotaViewHolder mascotaViewHolder, int position) {
+    public void onBindViewHolder(@NonNull final MascotaViewHolder mascotaViewHolder, int position) {
         final Mascota mascota = mascotas.get(position);
         mascotaViewHolder.imgFoto.setImageResource(mascota.getFoto());
         mascotaViewHolder.tvNombreCV.setText(mascota.getNombre());
@@ -45,16 +46,12 @@ public class MascotaAdaptador extends RecyclerView.Adapter<MascotaAdaptador.Masc
             public void onClick(View v) {
                 mascota.addLike();
                 Toast.makeText(activity, "Diste LIKE a " + mascota.getNombre() + ". Lleva " + mascota.getLikes() + " likes.", Toast.LENGTH_SHORT).show();
+                ConstructorMascotas constructorMascotas = new ConstructorMascotas(activity);
+                constructorMascotas.darLikeMascota(mascota);
+                mascotaViewHolder.tvLikesCV.setText((String.valueOf(constructorMascotas.obtenerLikesMascota(mascota))) + " Likes");
             }
         });
 
-
-/*        mascotaViewHolder.imgFoto.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(activity,mascota.getNombre(), Toast.LENGTH_LONG).show();
-            }
-        });*/
     }
 
     @Override

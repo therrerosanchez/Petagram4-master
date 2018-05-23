@@ -1,4 +1,4 @@
-#Wed May 23 08:38:29 CEST 2018
-base.0=C\:\\Users\\tomas\\AndroidStudioProjects\\Petagram4-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+#Wed May 23 17:22:47 CEST 2018
+base.0=C\:\\Users\\tomas\\AndroidStudioProjects\\Petagram4-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\16
 path.0=classes.dex
 renamed.0=classes.dex
