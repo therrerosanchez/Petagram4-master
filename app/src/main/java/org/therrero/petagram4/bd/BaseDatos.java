@@ -24,7 +24,8 @@ public class BaseDatos extends SQLiteOpenHelper {
         String queryCrearTablaMascota = "CREATE TABLE " + ConstantesBaseDatos.TABLE_MASCOTAS + " ( " +
                 ConstantesBaseDatos.TABLE_MASCOTAS_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
                 ConstantesBaseDatos.TABLE_MASCOTAS_NOMBRE + " TEXT, " +
-                ConstantesBaseDatos.TABLE_MASCOTAS_FOTO + " INTEGER " +" ) ";
+                ConstantesBaseDatos.TABLE_MASCOTAS_FOTO + " INTEGER, " +
+                ConstantesBaseDatos.TABLE_MASCOTAS_LIKES + " INTEGER " +" ) ";
 
         String queryCrearTablaLikesMascota = "CREATE TABLE " + ConstantesBaseDatos.TABLE_LIKES_MASCOTA + " ( " +
                 ConstantesBaseDatos.TABLE_LIKES_MASCOTA_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
@@ -45,6 +46,29 @@ public class BaseDatos extends SQLiteOpenHelper {
         onCreate(db);
     }
 
+    public ArrayList<Mascota> obtenerMejoresMascotas (){
+        ArrayList<Mascota> mascotas = new ArrayList<>();
+
+        String query = "SELECT * FROM " + ConstantesBaseDatos.TABLE_MASCOTAS +
+                " ORDER BY " + ConstantesBaseDatos.TABLE_MASCOTAS_LIKES + " DESC LIMIT 5";
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor registros = db.rawQuery(query, null);
+        int contador = 0;
+        while (registros.moveToNext()){
+            Mascota mascotaActual = new Mascota();
+            mascotaActual.setId(registros.getInt(0));
+            mascotaActual.setNombre(registros.getString(1));
+            mascotaActual.setFoto(registros.getInt(2));
+            mascotaActual.setLikes(registros.getInt(3));
+            mascotas.add(mascotaActual);
+        }
+
+        db.close();
+        return mascotas;
+    }
+
+
+
     public ArrayList<Mascota> obtenerTodosLosMascotas (){
         ArrayList<Mascota> mascotas = new ArrayList<>();
 
@@ -57,8 +81,9 @@ public class BaseDatos extends SQLiteOpenHelper {
             mascotaActual.setId(registros.getInt(0));
             mascotaActual.setNombre(registros.getString(1));
             mascotaActual.setFoto(registros.getInt(2));
+            mascotaActual.setLikes(registros.getInt(3));
 
-            String queryLikes = "SELECT COUNT ( " + ConstantesBaseDatos.TABLE_LIKES_MASCOTA_ID_NUMERO_LIKES + " ) as likes " +
+/*            String queryLikes = "SELECT COUNT ( " + ConstantesBaseDatos.TABLE_LIKES_MASCOTA_ID_NUMERO_LIKES + " ) as likes " +
                     " FROM " + ConstantesBaseDatos.TABLE_LIKES_MASCOTA +
                     " WHERE " + ConstantesBaseDatos.TABLE_LIKES_MASCOTA_ID_MASCOTA + " = " + mascotaActual.getId();
 
@@ -68,7 +93,7 @@ public class BaseDatos extends SQLiteOpenHelper {
             }else {
                 mascotaActual.setLikes(0);
             }
-
+*/
             mascotas.add(mascotaActual);
         }
 
@@ -82,18 +107,24 @@ public class BaseDatos extends SQLiteOpenHelper {
         db.close();
     }
 
-    public void insertarLikeMascota (ContentValues contentValues){
+    public void insertarLikeMascota (int id, int likes){
         SQLiteDatabase db =  this.getReadableDatabase();
-        db.insert(ConstantesBaseDatos.TABLE_LIKES_MASCOTA, null, contentValues );
+        ContentValues contentValues = new ContentValues();
+        String where = "id=?";
+        String[] whereArgs = new String[] {String.valueOf(id)};
+
+       // contentValues.put(ConstantesBaseDatos.TABLE_MASCOTAS_ID, id);
+        contentValues.put(ConstantesBaseDatos.TABLE_MASCOTAS_LIKES, likes);
+        db.update(ConstantesBaseDatos.TABLE_MASCOTAS, contentValues, where, whereArgs );
         db.close();
     }
 
     public int obtenerLikesMascota(Mascota mascota){
         int likes = 0;
 
-        String query = "SELECT COUNT ( " + ConstantesBaseDatos.TABLE_LIKES_MASCOTA_ID_NUMERO_LIKES + " ) " +
-                " FROM " + ConstantesBaseDatos.TABLE_LIKES_MASCOTA +
-                " WHERE " + ConstantesBaseDatos.TABLE_LIKES_MASCOTA_ID_MASCOTA + " = " + mascota.getId();
+        String query = "SELECT " + ConstantesBaseDatos.TABLE_MASCOTAS_LIKES + " " +
+                " FROM " + ConstantesBaseDatos.TABLE_MASCOTAS +
+                " WHERE " + ConstantesBaseDatos.TABLE_MASCOTAS_ID + " = " + mascota.getId();
 
         SQLiteDatabase db =  this.getReadableDatabase();
         Cursor registros = db.rawQuery(query, null);

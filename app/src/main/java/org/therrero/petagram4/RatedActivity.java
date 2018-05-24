@@ -7,6 +7,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
 import org.therrero.petagram4.adapter.MascotaAdaptador;
+import org.therrero.petagram4.bd.ConstructorMascotas;
 import org.therrero.petagram4.pojo.Mascota;
 
 import java.util.ArrayList;
@@ -14,6 +15,7 @@ import java.util.ArrayList;
 public class RatedActivity extends AppCompatActivity {
     ArrayList<Mascota> mascotasRated;
     private RecyclerView listaDeMascotasRated;
+    private ConstructorMascotas constructorMascotas;
     public MascotaAdaptador adaptadorRated;
 
     @Override
@@ -36,12 +38,9 @@ public class RatedActivity extends AppCompatActivity {
     }
     public void inicializarListaMascotas(){
         mascotasRated= new ArrayList<Mascota>();
+        constructorMascotas = new ConstructorMascotas(this);
+        mascotasRated = constructorMascotas.obtenerMejoresMascotas();
 
-        mascotasRated.add(new Mascota("Pepi", R.drawable.mascota1,0));
-        mascotasRated.add(new Mascota("Chispas", R.drawable.mascota3,0));
-        mascotasRated.add(new Mascota("Toby",R.drawable.mascota4,0));
-        mascotasRated.add(new Mascota("Miky",R.drawable.mascota6,0));
-        mascotasRated.add(new Mascota("Aris",R.drawable.mascota8,0));
 
     }
 

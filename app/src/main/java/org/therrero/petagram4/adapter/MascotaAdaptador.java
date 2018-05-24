@@ -44,7 +44,7 @@ public class MascotaAdaptador extends RecyclerView.Adapter<MascotaAdaptador.Masc
         mascotaViewHolder.imgHueso.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mascota.addLike();
+                //mascota.addLike();
                 Toast.makeText(activity, "Diste LIKE a " + mascota.getNombre() + ". Lleva " + mascota.getLikes() + " likes.", Toast.LENGTH_SHORT).show();
                 ConstructorMascotas constructorMascotas = new ConstructorMascotas(activity);
                 constructorMascotas.darLikeMascota(mascota);
