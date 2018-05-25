@@ -27,22 +27,12 @@ public class BaseDatos extends SQLiteOpenHelper {
                 ConstantesBaseDatos.TABLE_MASCOTAS_FOTO + " INTEGER, " +
                 ConstantesBaseDatos.TABLE_MASCOTAS_LIKES + " INTEGER " +" ) ";
 
-        String queryCrearTablaLikesMascota = "CREATE TABLE " + ConstantesBaseDatos.TABLE_LIKES_MASCOTA + " ( " +
-                ConstantesBaseDatos.TABLE_LIKES_MASCOTA_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
-                ConstantesBaseDatos.TABLE_LIKES_MASCOTA_ID_MASCOTA + " INTEGER, " +
-                ConstantesBaseDatos.TABLE_LIKES_MASCOTA_ID_NUMERO_LIKES + " INTEGER, " +
-                " FOREIGN KEY ( " + ConstantesBaseDatos.TABLE_LIKES_MASCOTA_ID_MASCOTA + " ) " +
-                " REFERENCES " + ConstantesBaseDatos.TABLE_MASCOTAS + " ( " + ConstantesBaseDatos.TABLE_MASCOTAS_ID + " ) " +
-                " ) ";
-
         db.execSQL(queryCrearTablaMascota);
-        db.execSQL(queryCrearTablaLikesMascota);
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         db.execSQL("DROP TABLE IF EXISTS " + ConstantesBaseDatos.TABLE_MASCOTAS);
-        db.execSQL("DROP TABLE IF EXISTS " + ConstantesBaseDatos.TABLE_LIKES_MASCOTA);
         onCreate(db);
     }
 
@@ -83,18 +73,6 @@ public class BaseDatos extends SQLiteOpenHelper {
             mascotaActual.setNombre(registros.getString(1));
             mascotaActual.setFoto(registros.getInt(2));
             mascotaActual.setLikes(registros.getInt(3));
-
-/*            String queryLikes = "SELECT COUNT ( " + ConstantesBaseDatos.TABLE_LIKES_MASCOTA_ID_NUMERO_LIKES + " ) as likes " +
-                    " FROM " + ConstantesBaseDatos.TABLE_LIKES_MASCOTA +
-                    " WHERE " + ConstantesBaseDatos.TABLE_LIKES_MASCOTA_ID_MASCOTA + " = " + mascotaActual.getId();
-
-            Cursor registrosLikes = db.rawQuery(queryLikes, null);
-            if (registrosLikes.moveToNext()){
-                mascotaActual.setLikes(registrosLikes.getInt(0));
-            }else {
-                mascotaActual.setLikes(0);
-            }
-*/
             mascotas.add(mascotaActual);
         }
 
