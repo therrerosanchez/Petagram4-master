@@ -44,7 +44,6 @@ public class BaseDatos extends SQLiteOpenHelper {
                 " ORDER BY " + ConstantesBaseDatos.TABLE_MASCOTAS_LIKES + " DESC LIMIT 5";
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor registros = db.rawQuery(query, null);
-        int contador = 0;
         while (registros.moveToNext()){
             Mascota mascotaActual = new Mascota();
             mascotaActual.setId(registros.getInt(0));
@@ -55,6 +54,7 @@ public class BaseDatos extends SQLiteOpenHelper {
         }
 
         db.close();
+        registros.close();
         return mascotas;
     }
 
@@ -77,6 +77,7 @@ public class BaseDatos extends SQLiteOpenHelper {
         }
 
         db.close();
+        registros.close();
         return mascotas;
     }
 
@@ -113,6 +114,7 @@ public class BaseDatos extends SQLiteOpenHelper {
         }
 
         db.close();
+        registros.close();
         return likes;
     }
 }

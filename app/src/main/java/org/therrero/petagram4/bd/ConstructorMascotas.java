@@ -11,7 +11,6 @@ import java.util.ArrayList;
 public class ConstructorMascotas {
     private Context context;
 
-    public static final int LIKE = 1;
     public ConstructorMascotas (Context context){
         this.context= context;
     }

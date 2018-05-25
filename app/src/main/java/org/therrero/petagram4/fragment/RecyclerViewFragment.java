@@ -19,7 +19,6 @@ import org.therrero.petagram4.presentador.RecyclerViewFragmentPresenter;
 import java.util.ArrayList;
 
 public class RecyclerViewFragment extends Fragment implements IRecyclerViewFragmentView{
-    ArrayList<Mascota> mascotas;
     private RecyclerView listaDeMascotas;
     private IRecyclerViewFragmentPresenter presenter;
 

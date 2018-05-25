@@ -9,8 +9,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import org.therrero.petagram4.FotoMascota;
 import org.therrero.petagram4.R;
+import org.therrero.petagram4.pojo.FotoMascota;
 
 import java.util.ArrayList;
 
@@ -19,7 +19,7 @@ public class FotoAdapter extends RecyclerView.Adapter<FotoAdapter.FotoMascotaVie
     ArrayList<FotoMascota> mascotas;
     Activity activity;
 
-    public FotoAdapter(ArrayList<FotoMascota> mascotas, Activity activity){
+    public FotoAdapter(ArrayList<org.therrero.petagram4.pojo.FotoMascota> mascotas, Activity activity){
         this.mascotas = mascotas;
         this.activity = activity;
     }
@@ -34,7 +34,7 @@ public class FotoAdapter extends RecyclerView.Adapter<FotoAdapter.FotoMascotaVie
     //Asocia cada elemento de nuestra vista con cada view
     @Override
     public void onBindViewHolder(@NonNull FotoAdapter.FotoMascotaViewHolder FotoMascotaViewHolder, int position) {
-        final FotoMascota mascota = mascotas.get(position);
+        final org.therrero.petagram4.pojo.FotoMascota mascota = mascotas.get(position);
         FotoMascotaViewHolder.imgFoto.setImageResource(mascota.getFoto());
         FotoMascotaViewHolder.tvLikesCV.setText(String.valueOf(mascota.getLikes()));
     }
@@ -50,8 +50,8 @@ public class FotoAdapter extends RecyclerView.Adapter<FotoAdapter.FotoMascotaVie
 
         public FotoMascotaViewHolder(View itemView) {
             super(itemView);
-            imgFoto = (ImageView) itemView.findViewById(R.id.fotoMascota);
-            tvLikesCV = (TextView) itemView.findViewById(R.id.Fotolikes);
+            imgFoto = itemView.findViewById(R.id.fotoMascota);
+            tvLikesCV = itemView.findViewById(R.id.Fotolikes);
         }
     }
 }

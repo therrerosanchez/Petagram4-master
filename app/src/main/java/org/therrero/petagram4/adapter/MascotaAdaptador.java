@@ -67,10 +67,10 @@ public class MascotaAdaptador extends RecyclerView.Adapter<MascotaAdaptador.Masc
 
         public MascotaViewHolder(View itemView) {
             super(itemView);
-            imgFoto = (ImageView) itemView.findViewById(R.id.foto);
-            tvNombreCV = (TextView) itemView.findViewById(R.id.nombre);
-            tvLikesCV = (TextView) itemView.findViewById(R.id.likes);
-            imgHueso =(ImageView) itemView.findViewById(R.id.hueso);
+            imgFoto =  itemView.findViewById(R.id.foto);
+            tvNombreCV =  itemView.findViewById(R.id.nombre);
+            tvLikesCV =  itemView.findViewById(R.id.likes);
+            imgHueso = itemView.findViewById(R.id.hueso);
         }
     }
 }
